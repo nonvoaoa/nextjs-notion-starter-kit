@@ -194,7 +194,6 @@ const notionRendererComponents: Partial<NotionComponents> = {
   Pdf,
   Modal,
   Tweet,
-  Header: NotionPageHeader,
   propertyLastEditedTimeValue,
   propertyTextValue,
   propertyDateValue
@@ -324,8 +323,6 @@ export function NotionPage({
         pageAside={pageAside}
         footer={<Footer />}
       />
-
-      <GitHubShareButton />
     </>
   )
 }
