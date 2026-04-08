@@ -6,6 +6,14 @@
  * whereas our goal with this site is to adjust Notion's styling in a few key
  * places to add some flare.
  */
+.notion-header {
+  display: none !important;
+}
+
+.notion-github-corner {
+  display: none !important;
+}
+
 html, body {
   background: #ffffff !important;
   color: #000000 !important;
