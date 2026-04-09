@@ -7,7 +7,7 @@
  * places to add some flare.
  */
 .index-page.notion-page {
-  display: block !important;
+  align-items: flex-start !important;
 }
 
 .index-page .notion-page-icon-hero {
