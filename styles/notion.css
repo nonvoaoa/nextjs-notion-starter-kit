@@ -6,6 +6,12 @@
  * whereas our goal with this site is to adjust Notion's styling in a few key
  * places to add some flare.
  */
+.index-page .notion-page-icon-hero {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
 .index-page.notion-page {
   align-items: flex-start !important;
 }
