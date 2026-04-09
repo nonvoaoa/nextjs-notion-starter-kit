@@ -385,8 +385,16 @@ html, body {
 }
 
 .notion-header {
-  background: hsla(0, 0%, 100%, 0.8);
-  backdrop-filter: saturate(180%) blur(16px);
+  background: #ffffff;
+  backdrop-filter: none;
+  color: #000000 !important;
+}
+
+.notion-header a,
+.notion-header .breadcrumb {
+  color: #000000 !important;
+  opacity: 1 !important;
+}
 }
 
 .dark-mode .notion-header {
