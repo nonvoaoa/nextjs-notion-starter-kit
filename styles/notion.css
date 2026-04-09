@@ -6,12 +6,17 @@
  * whereas our goal with this site is to adjust Notion's styling in a few key
  * places to add some flare.
  */
+.breadcrumb:hover {
+  background: rgba(0, 0, 0, 0.06) !important;
+  border-radius: 6px !important;
+}
+
 .breadcrumb .title {
   color: #000000 !important;
 }
 
 .breadcrumb:hover .title {
-  color: #FFFFFF !important;
+  color: #000000 !important;
 }
 
 .breadcrumbs .spacer {
