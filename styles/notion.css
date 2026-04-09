@@ -6,6 +6,19 @@
  * whereas our goal with this site is to adjust Notion's styling in a few key
  * places to add some flare.
  */
+.notion-hr {
+  border-color: #e0e0e0 !important;
+}
+
+.index-page .notion-page-icon-hero {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+.index-page .notion-title {
+  text-align: left !important;
+}
+
 .breadcrumb:hover {
   background: rgba(0, 0, 0, 0.06) !important;
   border-radius: 6px !important;
