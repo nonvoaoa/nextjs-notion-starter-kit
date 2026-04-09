@@ -40,7 +40,7 @@ export function NotionPageHeader({
   const { components, mapPageUrl } = useNotionContext()
 
   if (navigationStyle === 'default') {
-    return null
+    return <Header block={block} />
   }
 
   return (
