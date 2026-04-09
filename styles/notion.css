@@ -395,6 +395,12 @@ html, body {
   color: #000000 !important;
   opacity: 1 !important;
 }
+
+.notion-header a,
+.notion-header .breadcrumb {
+  color: #000000 !important;
+  opacity: 1 !important;
+}
 }
 
 .dark-mode .notion-header {
