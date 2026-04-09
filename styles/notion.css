@@ -6,6 +6,18 @@
  * whereas our goal with this site is to adjust Notion's styling in a few key
  * places to add some flare.
  */
+.breadcrumb .title {
+  color: #000000 !important;
+}
+
+.breadcrumb:hover .title {
+  color: #555555 !important;
+}
+
+.breadcrumbs .spacer {
+  color: #000000 !important;
+}
+
 .notion-breadcrumbs .notion-breadcrumb:not(:last-child)::after {
   content: ' /';
   margin: 0 4px;
