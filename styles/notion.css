@@ -8,10 +8,11 @@
  */
 .notion-nav-header {
   padding-left: 30px !important;
+  max-width: 100% !important;
 }
 
 .index-page .notion-page-content {
-  max-width: 500px !important;
+  max-width: 300px !important;
   margin: 0 auto !important;
 }
 
