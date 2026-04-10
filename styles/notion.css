@@ -7,7 +7,7 @@
  * places to add some flare.
  */
 .notion-nav-header {
-  padding-left: 0px !important;
+  padding-left: 20px !important;
   max-width: 100% !important;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .index-page .notion-title {
-  text-align: left !important;
+  text-align: center !important;
 }
 
 .breadcrumb:hover {
