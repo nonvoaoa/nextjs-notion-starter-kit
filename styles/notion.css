@@ -233,7 +233,7 @@ html, body {
 }
 
 .notion .notion-page-icon-cover {
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
 }
 
