@@ -6,6 +6,15 @@
  * whereas our goal with this site is to adjust Notion's styling in a few key
  * places to add some flare.
  */
+.index-page .notion-page-content {
+  max-width: 600px !important;
+  margin: 0 auto !important;
+}
+
+.notion-page-no-cover .notion-text:first-of-type {
+  text-align: center !important;
+}
+
 .notion-page-icon-hero.notion-page-icon-image {
   box-shadow: none !important;
 }
@@ -239,7 +248,7 @@ html, body {
 
 .notion-title {
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 .notion-collection-row {
